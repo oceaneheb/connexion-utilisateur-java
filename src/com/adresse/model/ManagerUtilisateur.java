@@ -12,6 +12,8 @@ public class ManagerUtilisateur {
 
     /* ---------- Ajouter un utilisateur ---------------*/
     public static Utilisateur create(Utilisateur user) throws SQLException, NoSuchAlgorithmException {
+        //NoSuchAlgorithmException -> message d'erreur si problème de hâchage du mdp
+
         //créer un objet Utilisateur
         Utilisateur userAdd = new Utilisateur();
 

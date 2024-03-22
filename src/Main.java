@@ -1,5 +1,6 @@
 import com.adresse.model.ManagerUtilisateur;
 import com.adresse.model.Utilisateur;
+import com.adresse.vue.MainFrame;
 import com.adresse.vue.UserForm;
 
 import java.security.NoSuchAlgorithmException;
@@ -37,6 +38,8 @@ public class Main {
         /* ------ Afficher la liste de tous les utilisateurs ------ */
         //System.out.println(ManagerUtilisateur.findAll());
 
-        UserForm formulaire = new UserForm(null);
+        //UserForm formulaire = new UserForm(null);
+
+        MainFrame mainFrame = new MainFrame(null);
     }
 }
